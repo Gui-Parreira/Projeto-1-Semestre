@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="JavaScript" src="validajs.js"></script>
+        <link rel="stylesheet" href="project.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');</style>
+    </head>
+    <body>
+        <header class="menu">
+            <div class="container">
+                <div class="item item1">
+                    <a href="HomeProject.html"><p>Home</p></a>
+                </div>
+                <div class="item item2">
+                    <a href="Contato Project.html"><p>Contato</p></a>
+                </div>
+                <div class="item item3">
+                    <a href="CréditosProject.html"><p>Créditos</p></a>
+                </div>
+            </div>
+            <div class="logo">
+                <p>MetaNet</p>
+            </div>
+        </header>
+        <div class="title-contact"><h2>Quem fez acontecer</h2></div>
+        <div class="contato-section">
+             <div class="profile">
+                <img class="img-contato" src="guilherme.jpg"> <br>
+                <h4>Guilherme Parreira</h4>
+                <ul class="lista">
+                    <li>Guilherme.parreira@aluno.ifsp.edu.br</li>
+                    <li>Tecnologia em Sistemas para Internet</li>
+                    <li>Desenvolvedor da estrutura HTML das páginas</li>
+                    <li>Desenvolvedor do formulário e JavaScript aplicado</li>
+                    <li>Desenvolvedor do Sketch do site</li>
+                    <li>Contribuinte na estrutura do tutotial da ferramenta</li>
+                </ul> 
+             </div>
+             <div class="profile">
+                <img class="img-contato" src="joao.jpeg"> <br>
+                <h4>João Zanello </h4>
+                <ul class="lista">
+                    <li>zanello.joao@aluno.ifsp.edu.br</li>
+                    <li>Tecnologia em Sistemas para Internet</li>
+                    <li>Desenvolvedor do tutorial da ferramenta</li>
+                    <li>Desenvolvedor do roteiro de video da ferramenta</li>
+                    <li>Desenvolvedor do CSS aplicado no site</li>
+                    <li>Desenvolvedor do vídeo tutorial e explicativo</li>
+                    <li>Contribuinte na estrutura do HTML do site</li>
+                </ul>
+             </div>
+             <div class="profile">
+                <img class="img-contato" src="francisco.jpeg"> <br>
+                <h4>Francisco David</h4>
+                <ul class="lista">
+                    <li>francisco.david@aluno.ifsp.edu.br</li>
+                    <li>Tecnologia em Sistemas para Internet</li>
+                    <li>Contribuinte no áudio de conteúdo do video tutorial</li>
+                    <li>Responsável pelo conteúdo da página Créditos</li>
+                    <li>Contribuinte nos Slides de apresentação do seminário</li>
+                </ul>
+             </div>
+        </div>
+        <h2 class="title-form">Deixe sua mensagem</h2>
+        <div class="formulario">
+            <form name="formproject" action="" class="formproject">
+                <table class="tabela">
+
+                    <Tr>
+                        <td>Nome</td>
+                        <td><input placeholder="Digite seu nome aqui" class="w100" type="text" name="camponame"></td>
+                    </Tr>
+
+                    <tr>
+                        <td>Telefone</td>
+                        <td><input placeholder="Digite seu telefone" class="w100" type="text" name="campotel"></td>
+                    </tr>
+
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input placeholder="Digite seu e-mail" id="w100" type="text" name="campoemail"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Enviar arquivo</td>
+                        <td><input class="w100" type="file"></td>
+                    </tr>
+
+                </table>
+                <table class="tabela-2">
+                    <tr>
+                        <td>Comentários:</td>
+                    </tr>
+                    <tr>
+                        <td><textarea placeholder="Escreva sua mensagem aqui" class="w200" rows="5" cols="54"></textarea></td>
+                    </tr>
+                </table>
+                <div class="btn-container">
+                    <input class="btn" type="submit" value="ENVIAR" onclick="return valform()">
+                    <input class="btn" type="reset" value="LIMPAR">
+                </div>
+            </form>
+        </div>
+        <footer class="rodape">
+            <div class="content-footer">
+                <h4 class="title-footer">MetaNet</h4>
+                <h4 class="title-footer" id="ifsp">IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</h4>
+                <p class="element-footer">Este site possui caráter educacional, criado em um projeto de alunos do curso de Tecnologia e Sistemas para Internet do IFSP Campus São João da Boa Vista - SP.</p>
+            </div>
+        </footer>
+    </body>
+</html>
